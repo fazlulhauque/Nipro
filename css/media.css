@@ -1,0 +1,494 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.99px) {
+  /*header start */
+.logo h1 {
+    font-size: 22px; 
+}
+.menu ul li a {
+    padding: 2px 0px !important;
+}
+ .ddm_s {
+    width: 200px;
+    padding: 0px 15px;
+}
+.ddm_s[data-bs-popper] {
+    top: 0px;
+    left: 67px;   
+}
+
+ /*header end */
+  /*banner start*/
+.s_item {
+    padding: 140px 0;
+    text-align: center;
+} 
+.s_item h1 {
+    font-size: 35px;
+}
+.s_item p {
+    margin: 25px 94px 25px 0;
+    text-align: center;
+    margin-right: 0;
+}
+.s_item i {
+    font-size: 16px;
+}
+.cm_btn {
+    padding: 10px 12px;
+}
+.cm_btn i {
+    margin-left: 10px;
+}
+.c_prev {
+    left: 82px;
+}
+.slider_indicators {
+    left: 150px;
+    top: 91%;
+}
+.c_next {
+    right: 82px;
+}
+/*banner end*/
+/*wellcome start*/
+.w_content h2 {
+   font-size: 20px;
+}
+.w_content p {
+    padding: 35px 0px;
+}
+/*wellcome end*/
+/*about start*/
+.about {
+    padding-bottom: 60px;
+}
+.a_image {
+    text-align: center;
+}
+.a_content{
+	text-align: center;
+	padding-left: 0px;
+}
+.a_content h2{
+	text-align: center;
+	margin-top: 48px;
+	font-size: 24px;
+}
+.a_content p {
+    margin: 40px 10px 38px 10px;
+    text-align: justify;
+    padding-top: 0px !important;
+}
+.a_btn{
+	padding: 10px 12px;
+}
+/*about end*/
+/*recent work start*/
+.r_work {
+    padding-bottom: 60px;
+}
+.gallery ul {
+    margin-left: 0px;
+}
+.gallery ul li {
+    margin: 0 -3px;
+}
+.gallery ul li button {
+    font-size: 15px;
+}
+/*recent work start*/
+/*choose start*/
+.choose {
+    padding-bottom: 60px;
+}
+.choose .w_content {
+    margin-bottom: 60px;
+}
+/*choose end*/
+/*team start*/
+.t_member {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.t_info h4 {
+    font-size: 17px;
+    text-align: center;
+}
+.t_info p {
+    text-align: center;
+}
+/*team end*/
+/*pricing start*/
+.price .w_content {
+    margin: 30px;
+}
+.p_item {
+    margin-top: 70px;
+    padding: 35px 50px;
+}
+.p_info {
+    line-height: 45px;
+}
+.p_item .p_btn {
+    padding: 12px 30px;
+}
+/*pricing end*/
+/*devider start*/
+.d_content h4 {
+	margin: 30px 0 20px;
+    font-size: 17px;
+    text-align: center;
+}
+.d_content .d_btn {
+    padding: 7px 25px;
+    text-align: center;
+}
+/*devider end*/
+/*testimonial slider start*/
+.testimonial-section {
+    padding: 46px 0px 0px 13px;
+}
+.testimonial-right {
+    margin-top: 20px;
+    text-align: center;
+}
+.middle-p, .last-p {
+    margin: 40px 10px 38px 10px;
+    text-align: justify;
+}
+.t-control {
+    padding: 5px 0;
+}
+.t-prev {
+    transform: rotate(0deg);
+    margin-right: 185px;
+}
+.t-indicator {
+    margin: -68px 20px 60px;
+    transform: rotate(90deg);
+}
+.t-next {
+    margin-left: 135px;
+    margin-bottom: 10px;
+    margin-top: -92px;
+    transform: rotate(0deg);
+}
+/*testimonial slider end*/
+/*contact us start*/
+.contact {
+    margin-top: 70px;
+    padding: 0px 0px 0px 13px;
+
+}
+/*contact us end*/
+
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.99px) {
+   /*header start */
+.logo h1 {
+    font-size: 25px; 
+}  
+.menu ul li a {
+    padding: 6px 0px !important;
+}
+ .ddm_s {
+    width: 250px;
+    padding: 5px 5px;
+}
+.ddm_s[data-bs-popper] {
+    top: 0px;
+    left: 67px;   
+}
+ /*header end */ 
+  /*banner start*/
+.s_item {
+    padding: 140px 0;
+    text-align: center;
+} 
+.s_item h1 {
+    font-size: 48px;
+}
+.s_item p {
+    text-align: center;
+    margin-right: 0;
+}
+.s_item i {
+    font-size: 16px;
+}
+.cm_btn {
+    padding: 10px 12px;
+}
+.cm_btn i {
+    margin-left: 10px;
+}
+.c_prev {
+    left: 190px;
+}
+.slider_indicators {
+    left: 258px;
+    top: 91%;
+}
+.c_next {
+    right: 190px;
+}
+/*banner end*/
+/*wellcome start*/
+.w_content p {
+    padding: 35px 0px;
+}
+/*wellcome end*/
+/*about start*/
+.a_image {
+    text-align: center;
+}
+.a_content{
+	text-align: center;
+	padding-left: 0px;
+}
+.a_content h2{
+	text-align: center;
+	margin-top: 48px;
+}
+.a_content p {
+	text-align: center;
+	margin: 40px 25px 38px 25px;
+	padding-top: 10px !important;
+}
+.a_btn{
+	padding: 12px 20px;
+}
+/*about end*/
+/*recent work start*/
+.gallery ul {
+    margin-left: 0px;
+}
+.gallery ul li {
+    margin: 0 -3px;
+}
+/*recent work start*/
+
+/*team start*/
+.t_info h4 {
+    font-size: 17px;
+    text-align: center;
+}
+.t_info p {
+    text-align: center;
+}
+/*team end*/
+/*pricing start*/
+.price .w_content {
+    margin: 30px;
+}
+.p_item {
+    margin-top: 70px;
+    padding: 35px;
+}
+.p_info {
+    line-height: 45px;
+}
+.p_item .p_btn {
+    padding: 12px 30px;
+}
+/*pricing end*/
+/*devider start*/
+.d_content h4 {
+    font-size: 17px;
+}
+.d_content .d_btn {
+    padding: 7px 25px;
+}
+/*devider end*/
+/*contact us start*/
+.contact {
+    margin-top: 70px;
+    padding: 30px 0px 0px 13px;
+
+}
+/*contact us end*/
+
+
+
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.99px) {
+ /*header start */
+.menu ul li a {
+    padding: 6px 0px !important;
+}
+ .ddm_s {
+    width: 300px;
+    padding: 0px 10px;
+}
+.ddm_s[data-bs-popper] {
+    top: 0px;
+    left: 67px;   
+}
+.s_input {
+  margin-left: -10px;
+}
+ /*header end */
+ /*banner start*/
+.s_item{
+	text-align: left;
+}
+ .s_item h1 {
+    font-size: 50px;
+}
+.s_item p {
+    margin: 30px 140px 35px 0;
+    text-align: left;
+}
+.cm_btn {
+    padding: 10px 20px;
+}
+.c_prev{
+	left: 20px;
+}
+.slider_indicators {
+    left: 70px;
+}
+.c_next {
+    right: 577px;
+}
+/*banner end*/
+/*wellcome start*/
+.w_content p {
+    padding: 35px 0px;
+}
+/*wellcome end*/
+/*about start*/
+.a_image {
+    text-align: center;
+}
+.a_content{
+	text-align: center;
+}
+.a_content h2{
+	text-align: center;
+	margin-top: 48px;
+}
+.a_content p {
+	text-align: center;
+	margin: 40px 40px 38px 40px;
+	padding-top: 10px !important;
+}
+.a_btn{
+	padding: 12px 20px;
+}
+/*about end*/
+/*recent work start*/
+.gallery ul {
+    margin-left: 25px;
+}
+.gallery ul li {
+    margin: 0 8px;
+}
+/*recent work start*/
+/*team start*/
+.t_member {
+    margin-right: 40px;
+    padding-left: 20px;
+}
+/*team start*/
+/*pricing start*/
+.price .w_content {
+    margin: 30px;
+}
+.p_item {
+    margin-top: 70px;
+}
+.p_info {
+    line-height: 45px;
+}
+.p_item .p_btn {
+    padding: 12px 50px;
+}
+/*pricing end*/
+/*devider start*/
+.d_content h4 {
+    font-size: 17px;
+}
+.d_content .d_btn {
+    padding: 7px 25px;
+}
+/*devider end*/
+/*contact us start*/
+.contact {
+    margin-top: 0;
+    padding: 30px 0px 0px 13px;
+
+}
+/*contact us end*/
+
+
+
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.99px) {
+/*banner start*/
+.s_item h1 {
+    font-size: 50px;
+}
+.cm_btn {
+    padding: 12px 22px;
+}
+.c_next {
+    right: 830px;
+ }
+/*banner end*/
+/*about start*/
+.a_content p {
+    padding: 15px 0px !important;
+}
+.a_btn {
+    margin-top: 25px !important;
+}
+
+/*about end*/
+/*recent work start*/
+.gallery ul {
+    margin-left: 250px;
+}
+.gallery ul li {
+    margin: 0 -3px;
+}
+/*recent work start*/
+/*pricing start*/
+.p_item {
+    margin-top: 20px;
+    padding: 21px;
+}
+.p_item .p_btn {
+    padding: 15px 35px;
+}
+/*pricing end*/
+
+
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+/*banner start*/
+.c_next {
+    left: -90px;
+ }
+/*banner end*/
+/*recent work start*/
+.gallery ul {
+    margin-left: 320px;
+}
+/*recent work end*/
+/*pricing start*/
+.p_item .p_btn {
+    padding: 15px 40px;
+}
+/*pricing end*/
+
+}
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+     
+} 
